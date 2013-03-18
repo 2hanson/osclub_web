@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-26 18:09+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: admin.py:16
+msgid "Applied To"
+msgstr ""
+
+#: admin.py:67 templates/articles/_meta.html:40
+msgid "Tags"
+msgstr ""
+
+#: admin.py:71
+msgid "Mark select articles as active"
+msgstr ""
+
+#: admin.py:75
+msgid "Mark select articles as inactive"
+msgstr ""
+
+#: admin.py:85 admin.py:90
+#, python-format
+msgid "Set status of selected to \"%s\""
+msgstr ""
+
+#: admin.py:100
+#, python-format
+msgid "Apply tag \"%s\" to selected articles"
+msgstr ""
+
+#: admin.py:105
+#, python-format
+msgid "Apply Tag: %s"
+msgstr ""
+
+#: forms.py:27
+msgid "Words that describe this article"
+msgstr ""
+
+#: models.py:31
+msgid "HTML/Plain Text"
+msgstr ""
+
+#: models.py:32
+msgid "Markdown"
+msgstr ""
+
+#: models.py:33
+msgid "ReStructured Text"
+msgstr ""
+
+#: models.py:34
+msgid "Textile"
+msgstr ""
+
+#: models.py:136
+msgid "Article statuses"
+msgstr ""
+
+#: models.py:170
+msgid ""
+"Select the type of markup you are using in this article.\n"
+"<ul>\n"
+"<li><a href=\"http://daringfireball.net/projects/markdown/basics\" target="
+"\"_blank\">Markdown Guide</a></li>\n"
+"<li><a href=\"http://docutils.sourceforge.net/docs/user/rst/quickref.html\" "
+"target=\"_blank\">ReStructured Text Guide</a></li>\n"
+"<li><a href=\"http://thresholdstate.com/articles/4312/the-textile-reference-"
+"manual\" target=\"_blank\">Textile Guide</a></li>\n"
+"</ul>"
+msgstr ""
+
+#: models.py:184
+msgid "If omitted, the keywords will be the same as the article tags."
+msgstr ""
+
+#: models.py:185
+msgid ""
+"If omitted, the description will be determined by the first bit of the "
+"article's content."
+msgstr ""
+
+#: models.py:191
+msgid "Tags that describe this article"
+msgstr ""
+
+#: models.py:192
+msgid ""
+"Check this if you want to automatically assign any existing tags to this "
+"article based on its content."
+msgstr ""
+
+#: models.py:193
+msgid "Select any other articles that this article follows up on."
+msgstr ""
+
+#: models.py:196
+msgid "The date and time this article shall appear online."
+msgstr ""
+
+#: models.py:197
+msgid "Leave blank if the article does not expire."
+msgstr ""
+
+#: models.py:200
+msgid "Enable this if users must login before they can read this article."
+msgstr ""
+
+#: models.py:202
+msgid "Show AddThis button"
+msgstr ""
+
+#: models.py:202
+msgid "Check this to show an AddThis bookmark button when viewing an article."
+msgstr ""
+
+#: models.py:203
+msgid "Use article author's username"
+msgstr ""
+
+#: models.py:203
+msgid ""
+"Check this if you want to use the article author's username for the AddThis "
+"button.  Respected only if the username field is left empty."
+msgstr ""
+
+#: models.py:204
+msgid "AddThis Username"
+msgstr ""
+
+#: models.py:204
+msgid "The AddThis username to use for the button."
+msgstr ""
+
+#: management/commands/check_for_articles_from_email.py:358
+msgid "Article Posted"
+msgstr "发表的文章"
+
+#: management/commands/check_for_articles_from_email.py:359
+#, python-format
+msgid ""
+"Your email (%(title)s) has been posted as an article on %(site_name)s.\n"
+"\n"
+"    http://%(domain)s%(article_url)s"
+msgstr ""
+
+#: templates/articles/_articles.html:4 templates/articles/_meta.html:58
+msgid "Read this article"
+msgstr "阅读该文章"
+
+#: templates/articles/_articles.html:6
+msgid "Posted on"
+msgstr "发布于"
+
+#: templates/articles/_articles.html:7
+msgid "by"
+msgstr "由"
+
+#: templates/articles/_articles.html:7
+msgid "View articles posted by"
+msgstr "查看文章"
+
+#: templates/articles/_meta.html:6
+msgid "Published"
+msgstr "发布"
+
+#: templates/articles/_meta.html:8
+msgid "Author"
+msgstr "作者"
+
+#: templates/articles/_meta.html:8
+msgid "Read other articles by this author"
+msgstr "阅读该作者的另一篇文章"
+
+#: templates/articles/_meta.html:10
+msgid "Comments"
+msgstr "评论"
+
+#: templates/articles/_meta.html:12
+msgid "Word Count"
+msgstr "字数统计"
+
+#: templates/articles/_meta.html:16
+msgid "Next"
+msgstr "下一篇"
+
+#: templates/articles/_meta.html:23
+msgid "Previous"
+msgstr "上一篇"
+
+#: templates/articles/_meta.html:44
+msgid "Follow-Up Articles"
+msgstr "以前的文章"
+
+#: templates/articles/_meta.html:48
+msgid "Read this follow-up article"
+msgstr "向前阅读"
+
+#: templates/articles/_meta.html:48 templates/articles/_meta.html.py:58
+#: templates/articles/_meta.html:68
+msgid "posted"
+msgstr "发表"
+
+#: templates/articles/_meta.html:54
+msgid "Follows Up On"
+msgstr "向上"
+
+#: templates/articles/_meta.html:64
+msgid "Related Articles"
+msgstr "相关文章"
+
+#: templates/articles/_meta.html:68
+msgid "Read this related article"
+msgstr "阅读相关文章"
+
+#: templates/articles/_meta.html:74
+msgid "Article Links"
+msgstr "文章链接"
+
+#: templates/articles/article_list.html:4
+#: templates/articles/article_list.html:7
+msgid "Articles"
+msgstr "文章"
+
+#: templates/articles/article_list.html:7 templates/articles/by_author.html:7
+#: templates/articles/display_tag.html:12 templates/articles/in_month.html:7
+#: templates/articles/uncategorized_article_list.html:7
+msgid "page"
+msgstr "页"
+
+#: templates/articles/base.html:14
+msgid "Article Archives"
+msgstr "文章归档"
+
+#: templates/articles/base.html:25
+msgid "View articles posted in this month"
+msgstr "查看本月发表的文章"
+
+#: templates/articles/by_author.html:4
+msgid "Articles By Author"
+msgstr "文章由作者"
+
+#: templates/articles/by_author.html:7
+msgid "Articles By"
+msgstr "文章由"
+
+#: templates/articles/display_tag.html:4
+#: templates/articles/display_tag.html:12
+msgid "Articles Tagged"
+msgstr "加标签的文章"
+
+#: templates/articles/in_month.html:4 templates/articles/in_month.html.py:7
+msgid "Articles From"
+msgstr "文章来源"
+
+#: templates/articles/uncategorized_article_list.html:4
+#: templates/articles/uncategorized_article_list.html:7
+msgid "Uncategorized Articles"
+msgstr "未分类的文章"

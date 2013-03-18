@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+{% load article_tags i18n %}
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="language" content="en-US" />
+<meta name="keywords" content="{% block meta-keywords %}{% endblock %}" />
+<meta name="description" content="{% block meta-description %}{% endblock %}" />
+<title>中科院开源协会 - {% block title %}博客{% endblock %}</title>
+{% block extra-head %}{% endblock %}
+<link rel="shortcut icon" type="image/ico" href="/static/img/favicon.png">
+<link rel="stylesheet" href="/static/css/style.css" type="text/css" media="screen">
+<!--[if lte IE 6]>
+<script type="text/javascript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+   var arVersion = navigator.appVersion.split("MSIE")
+   var version = parseFloat(arVersion[1])
+   if ((version >= 5.5) && (document.body.filters))
+   {
+      for(var i=0; i<document.images.length; i++)
+      {
+         var img = document.images[i]
+         var imgName = img.src.toUpperCase()
+         if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+         {
+            var imgID = (img.id) ? "id='" + img.id + "' " : ""
+            var imgClass = (img.className) ? "class='" + img.className
++ "' " : ""
+            var imgTitle = (img.title) ? "title='" + img.title + "' "
+: "title='" + img.alt + "' "
+            var imgStyle = "display:inline-block;" + img.style.cssText
+            if (img.align == "left") imgStyle = "float:left;" + imgStyle
+            if (img.align == "right") imgStyle = "float:right;" + imgStyle
+            if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+            var strNewHTML = "<span " + imgID + imgClass + imgTitle
+            + " style=\"" + "width:" + img.width + "px; height:" +
+img.height + "px;" + imgStyle + ";"
+            + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+            + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>"
+            img.outerHTML = strNewHTML
+            i = i-1
+         }
+      }
+   }
+}
+window.attachEvent("onload", correctPNG);
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>>
+<script type="text/javascript">
+$(document).ready(function(){
+//首先将#back-to-top隐藏
+ $("#toolButtom").hide();
+//当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失
+$(function () {
+$(window).scroll(function(){
+if ($(window).scrollTop()>100){
+$("#toolButtom").fadeIn(1500);
+}
+else
+{
+$("#toolButtom").fadeOut(1500);
+}
+});
+//当点击跳转链接后，回到页面顶部位置
+$("#backto").click(function(){
+$('body,html').animate({scrollTop:0},1000);
+return false;
+});
+});
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<div id="headleft">
+<a href="/blog"></a><img border="0" src="/static/img/osclub_logo.png" alt="中科院开源协会" title="中科院开源协会">
+
+<div id="menutop">
+<ul>
+<li><a href="/admin">登录</a><a>  </a><a href="/register">注册</a></li>
+</ul>
+</div>
+
+<div id="navigation">中国科学院开源协会博客</div>
+</div>
+
+<div id="headright">
+<div id="topnavbox">
+<ul>
+	<li><a href="/"><img src="/static/img/home.png" alt="网站首页" title="网站首页"><br>网站首页</a></li>
+	<li><a href="/blog"><img src="/static/img/blog.png" alt="博客"><br>协会博客</a></li>
+	<li><a href="https://groups.google.com/forum/?hl=zh-CN&fromgroups#!forum/open-cas"><img src="/static/img/group.png" alt="Group" title="Google group"><br>加入我们</a></li>
+	<li><a href="http://page.renren.com/601444426"><img src="/static/img/focus.png" alt="关注我们" title="关注我们"><br>关注我们</a></li>
+	<li><a href="/comment"><img src="/static/img/msg.png" alt="站内留言" title="站内留言"><br>站内留言</a></li>
+	<li><a href="/about"><img src="/static/img/about.png" alt="关于本站" title="关于本站"><br>关于本站</a></li>
+</ul>
+</div>
+
+	<div id="declaration">
+		<img border="0" src="/static/img/osclub.png" height="40" alt="中科院开源协会" title="中科院开源协会"/>
+		<div style="color: white;">如果我们的民族、我们的国家支持自由软件，弘扬自由软件精神，那么我们的民族软件产业何至于当今之现状？</div>
+	</div>
+
+</div>
+</div>
+
+
+<div id="HeadUn"> 
+    <div id="HeadUnTop"></div> 
+		<div class="topblock"> 
+		<p><img src="/static/img/gnu.jpg" alt="" style="float: left; margin-right: 10px;" height="88" width="88"> 自由软件精神——“自由、开放、分享”。自由软件自诞生之日起,就秉承了学术自由的思想,信奉科学无国界,知识应该全人类共享。</p> 
+		</div> 
+		<div class="topblock"> 
+       <p><img src="/static/img/ubuntu.jpg" alt="" style="float: left; margin-right: 10px;" height="88" width="88"> ubuntu精神——人道待人,天下共享连接人人的信念。具有 ubuntu 精神的人心胸开阔，乐于助人，见贤思齐而不忌妒贤能......</p> 
+		</div> 
+		<div class="topblock nobg"> 
+		
+<ins style="display:inline-table;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:234px"><ins id="aswift_0_anchor" style="display:block;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:234px"><iframe allowtransparency="true" hspace="0" marginwidth="0" marginheight="0" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){i+='.call';setTimeout(h,0)}else if(h.match){i+='.nav';w.location.replace(h)}s.log&amp;&amp;s.log.push(i)}" vspace="0" id="aswift_0" name="aswift_0" style="left: 0pt; position: absolute; top: 0pt;" frameborder="0" height="60" scrolling="no" width="234"></iframe></ins></ins>
+</div> 
+</div> 
+<div id="mainbody">
+<div id="mainbodytop"></div>
+{% block content %}{% endblock %}
+{% block sidebar %}
+<div id="sidebar">
+<div id="search">
+<h3>站内搜索</h3>
+<div id="search_form">
+    <form name="search_form" action="/blog/search/" method="POST">        
+        <input type="text" name="query"/>
+	<input class="searchsubmit" type="submit"onclick="var search=document.search_form.query;var x=search.value;if(x=='' || x==null){search.focus();document.getElementById('note').innerHTML='请输入你要搜索的内容！';return false;}">
+        {% csrf_token %}
+    </form>
+</div>
+<div id="note" class="text">没有找到您所需要的？尝试使用站内搜索吧.</div>
+</div>
+
+	{% block recent_articles %}
+<div class="s-green"> <b class="top"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+<div class="inner">
+<h3>{% trans '近期文章' %}</h3>
+<div class="item-list">
+	{% get_articles 10 as recent %}
+	{% for article in recent %}
+		{% if forloop.first %}<ul>{% endif %}
+ 	<li><a href="{{ article.get_absolute_url }}" title="Read this article">{{ article.title}}</a></li>
+		{% if forloop.last %}</ul>{% endif %}
+	{% endfor %}
+</div>
+</div>
+<b class="bottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
+</div>
+	{% endblock %}
+
+	{%　block archives %}
+<div class="s-green"> <b class="top"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+<div class="inner">
+
+<h3 class="title">{% trans '作者归档' %}</h3>
+    {% for author in authorArchives %}
+        {% if forloop.first %}<ul class="months">{% endif %}
+            <li><a href="/blog/author/{{ author.0 }}/" title="{% trans 'View articles posted in this author' %}">{{ author.0 }}</a><a>  ({{ author.1 }})</a></li>
+        {% if forloop.last %}</ul>{% endif %}
+	{% endfor %}
+</div>
+<b class="bottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
+</div>
+
+<div id="archives"> <b class="top"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+<div class="inner">
+
+<h3 class="title">{% trans 'Article Archives' %}</h3>
+	{% get_article_archives as archives %}
+   {% for year in archives %}
+   	{% if forloop.first %}<ul>{% endif %}
+        <li>
+            <strong>{{ year.0 }}</strong>
+            <ul class="months">
+            {% for month in year.1 %}
+                <li><a href="{% url articles_in_month month.year,month.month %}" title="{% trans 'View articles posted in this month' %}">{{ month|date:"N" }}</a></li>
+            {% endfor %}
+            </ul>
+            <div class="clear">&nbsp;</div>
+        </li>
+    	{% if forloop.last %}</ul>{% endif %}
+	{% endfor %}
+</div>
+<b class="bottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
+</div>
+	{% endblock %}
+    
+	{% block article_tags %}
+<div id="flink"> <b class="top"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+<div class="inner">
+<h3>{% trans '标签云' %}</h3>
+		{% tag_cloud %}
+</div>
+<b class="bottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
+</div>
+	{% endblock %}
+</div>
+{% endblock %}
+
+</div>
+{% block footer %}
+<div id="footer">
+<center>© 2012 中科院开源软件协会 | Chase freedom and share your wisdom.</center>
+</div>
+</div>
+{% endblock %}
+{% block toolButtom %}{% endblock %}
+</body></html>

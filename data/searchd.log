@@ -1,0 +1,53 @@
+[Fri Aug  3 14:05:03.729 2012] [ 5507] accepting connections
+[Fri Aug  3 15:27:25.593 2012] [ 5507] caught SIGTERM, shutting down
+[Fri Aug  3 15:27:25.593 2012] [ 5507] shutdown complete
+[Fri Aug  3 15:28:43.345 2012] [ 5812] accepting connections
+[Fri Aug  3 16:05:10.230 2012] [ 6000] accepting connections
+[Sun Aug  5 14:39:45.482 2012] [14824] accepting connections
+[Sun Aug  5 14:45:37.370 2012] [14824] rotating indices (seamless=1)
+[Sun Aug  5 14:45:37.373 2012] [14824] rotating index 'blog_indexer': success
+[Sun Aug  5 14:45:37.373 2012] [14824] rotating finished
+[Sun Aug  5 14:47:27.810 2012] [14824] rotating indices (seamless=1)
+[Sun Aug  5 14:47:27.814 2012] [14824] rotating index 'blog_indexer': success
+[Sun Aug  5 14:47:27.814 2012] [14824] rotating finished
+[Sun Aug  5 14:50:05.045 2012] [14824] rotating indices (seamless=1)
+[Sun Aug  5 14:50:05.048 2012] [14824] rotating index 'blog_indexer': success
+[Sun Aug  5 14:50:05.048 2012] [14824] rotating finished
+[Sun Aug  5 14:50:56.577 2012] [14824] rotating indices (seamless=1)
+[Sun Aug  5 14:50:56.580 2012] [14824] rotating index 'blog_indexer': success
+[Sun Aug  5 14:50:56.580 2012] [14824] rotating finished
+[Sun Aug  5 14:51:14.762 2012] [14919] accepting connections
+[Sun Aug  5 14:55:50.549 2012] [14919] rotating indices (seamless=1)
+[Sun Aug  5 14:55:50.562 2012] [14919] rotating index 'blog_indexer': success
+[Sun Aug  5 14:55:50.562 2012] [14919] rotating finished
+[Sun Aug  5 15:05:05.625 2012] [15051] accepting connections
+[Sun Aug  5 15:05:51.956 2012] [15051] rotating indices (seamless=1)
+[Sun Aug  5 15:05:51.959 2012] [15051] rotating index 'blog_indexer': success
+[Sun Aug  5 15:05:51.959 2012] [15051] rotating finished
+[Tue Aug  7 22:02:17.717 2012] [24924] accepting connections
+[Tue Aug  7 22:05:25.803 2012] [24924] rotating indices (seamless=1)
+[Tue Aug  7 22:05:25.816 2012] [24924] rotating index 'delta_blog_indexer': success
+[Tue Aug  7 22:05:25.816 2012] [24924] rotating finished
+[Tue Aug  7 22:08:38.365 2012] [24924] rotating indices (seamless=1)
+[Tue Aug  7 22:08:38.368 2012] [24924] rotating index 'blog_indexer': success
+[Tue Aug  7 22:08:38.368 2012] [24924] rotating finished
+[Tue Aug  7 22:09:34.921 2012] [24924] rotating indices (seamless=1)
+[Tue Aug  7 22:09:34.935 2012] [24924] rotating index 'delta_blog_indexer': success
+[Tue Aug  7 22:09:34.937 2012] [24924] rotating index 'blog_indexer': success
+[Tue Aug  7 22:09:34.937 2012] [24924] rotating finished
+[Tue Aug  7 22:10:00.679 2012] [24924] rotating indices (seamless=1)
+[Tue Aug  7 22:10:00.682 2012] [24924] rotating index 'delta_blog_indexer': success
+[Tue Aug  7 22:10:00.682 2012] [24924] rotating finished
+[Tue Aug  7 22:11:04.270 2012] [24924] rotating indices (seamless=1)
+[Tue Aug  7 22:11:04.283 2012] [24924] rotating index 'delta_blog_indexer': success
+[Tue Aug  7 22:11:04.283 2012] [24924] rotating finished
+[Tue Aug  7 22:11:15.617 2012] [24924] rotating indices (seamless=1)
+[Tue Aug  7 22:11:15.620 2012] [24924] rotating index 'blog_indexer': success
+[Tue Aug  7 22:11:15.620 2012] [24924] rotating finished
+[Tue Aug  7 22:13:25.670 2012] [24924] rotating indices (seamless=1)
+[Tue Aug  7 22:13:25.683 2012] [24924] rotating index 'delta_blog_indexer': success
+[Tue Aug  7 22:13:25.683 2012] [24924] rotating finished
+[Tue Aug  7 22:13:35.217 2012] [24924] rotating indices (seamless=1)
+[Tue Aug  7 22:13:35.220 2012] [24924] rotating index 'blog_indexer': success
+[Tue Aug  7 22:13:35.221 2012] [24924] rotating finished
+[Tue Sep  4 23:38:50.820 2012] [ 7884] accepting connections

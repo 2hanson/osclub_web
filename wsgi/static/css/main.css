@@ -1,0 +1,52 @@
+body{margin:10px 0 10px 0;color:#333;font:12px Georgia, Arial, Helvetica, sans-serif;background: url(../img/bg.png) repeat top left;}
+a{border:0;color:#0A5D0A;text-decoration:none;}
+a:hover{border:0;color:#cc3000;}
+h1,h2,h3,h4{padding:0;margin:0;}
+h1{font-size:160%;}
+h2{font-size:140%;line-height:130%;}
+h3{font-size:120%;}
+h4,h5,h6{font-size:100%;}
+img{padding:0;margin:0;border:none;text-align:center;}
+hr{border-top:1px dotted #abb0b5;height:1px;}
+p{margin:5px 0 10px;padding:0;}
+ul{margin:0;padding:0;list-style-type:none;}
+
+#container{width:940px;margin:0 auto;padding:10px;background:#777c7f;position:relative;}
+#header{width:910px;clear:left;margin:0 auto;padding:10px 10px 10px 20px;margin:0 0 10px 0;background:#1b212b;position:relative;height:78px;}
+#header #navigation{color:#EEE;font-weight:bold;position:absolute;top:-27px;left:10px;}
+#headleft{float:left;}
+#headleft h1 a{width:162px;display:block;background:url(../img/osclub_logo.png) no-repeat;height:78px;}
+#headright{width:800px;float:right;padding:5px;background:#3c414a;height:68px;position:relative;}
+#headrighttop{width:728px;overflow:hidden;height:4px;top:0;left:0;position:absolute;}
+#headright #topnavbox{width:384px;padding:0 2px;float:left;height:68px;overflow:hidden;}
+#headright #topnavbox ul{margin:0 auto;padding:0;}
+#headright #topnavbox ul li{float:left;margin:0;width:64px;padding:10px 0;list-style:none;text-align:center;position:relative;height:48px;}
+#headright #topnavbox ul li img{margin-bottom:5px;}
+#headright #topnavbox ul li a{padding:0 5px;margin:0;display:block;text-decoration:none;}
+#headright #topnavbox ul li a:link,#headright #topnavbox ul li a:visited{color:#D4D4D4;}
+#headright #topnavbox ul li a:hover,#headright #topnavbox ul li a:active{color:#f7d700;}
+
+#headright #declaration{padding:0;width:400px;float:right;right:0;height:68px;}
+#headright #declaration h3{font-size:13px;color:#d6d6d6;margin:10px 10px 0 10px;}
+#headright #declaration p{padding:5px 25px 0 15px;margin:0;display:block;color:#d6d6d6;font-size:12px;line-height:16px;}
+#headright #declaration p a{color:#d6d6d6;}
+#headright #declaration p a:hover{text-decoration:none;}
+
+#mainbody{width:910px;float:left;padding:15px 15px 0;background:#fff;position:relative;font-size: 1.5em;}
+#content{width:580px;float:left;padding:0 14px 0 0;border-right:1px solid #EEE;overflow:hidden;}
+img.centered {display:block;margin-left:auto;margin-right:auto;}
+img.alignright{padding:4px;margin:0 0 2px 7px;display:inline;}
+img.alignleft{padding:4px;margin:0 7px 2px 0;display:inline;}
+
+ul.links{margin:0;padding:0;}
+ul.links.inline{display:inline;}
+ul.links li{display:inline;list-style-type:none;padding:0 0.5em;}
+
+#footer{width:940px;clear:left;padding:10px 0 10px 0;background: #1B212B;color:#e5ebf0;position:relative;}
+#footer p{padding:0;margin:0;font-size:11px;line-height:19px;}
+#footer p a{color:#FFF;}
+#footer p a:hover{color:#C3EE7F;}
+
+.section p {margin: .4em 0 .5em 0;line-height: 1.5em;text-indent:2em;}
+#zen p {text-indent:0;}
+.section {border-bottom: 1px solid #AAA;padding-bottom: 10px;padding-top: 10px;}

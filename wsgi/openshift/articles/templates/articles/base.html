@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load article_tags i18n %}
+
+{% block extra-head %}
+{{ block.super }}
+<link rel="alternate" type="application/rss+xml" title="Latest Blog Articles RSS Feed" href="{% url articles_rss_feed_latest %}" />
+<link rel="alternate" type="application/atom+xml" title="Latest Blog Articles Atom Feed" href="{% url articles_atom_feed_latest %}" />
+{% endblock %}
+
+{% block content %}
+
+{% block articles-content %}{% endblock %}
+
+{% endblock %}
+
+{% block toolButtom %}
+<div id="toolButtom" class="back-to" >
+	<p align="center" id="back-to-top">
+{% if paginator and page_obj %}
+{% ifnotequal paginator.page_range|length 1 %}
+{% for p in paginator.page_range %}
+{% if forloop.first %}<span class="pagination-pages">
+{% if page_obj.has_previous %}
+    <a href="{% get_page_url 1 %}">&laquo;</a>
+    <a href="{% get_page_url page_obj.previous_page_number %}">&lsaquo;</a>
+{% endif %}
+{% endif %}
+    <a href="{% get_page_url p %}"{% ifequal p page_obj.number %} class="current-page"{% endifequal %}>{{ p }}</a>
+{% if forloop.last %}
+{% if page_obj.has_next %}
+    <a href="{% get_page_url page_obj.next_page_number %}">&rsaquo;</a>
+    <a href="{% get_page_url paginator.num_pages %}">&raquo;</a>
+{% endif %}
+</span>{% endif %}
+{% endfor %}
+{% endifnotequal %}
+{% endif %}
+		<span class="backto" >
+        	<a href="#top">返回顶部</a>
+        </span>
+    </p>
+</div>
+{% endblock %}
+

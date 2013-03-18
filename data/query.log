@@ -1,0 +1,89 @@
+[Fri Aug  3 14:05:31.985 2012] 0.021 sec [all/0/rel 0 (0,20)] [sphinxtest_story] ceshi
+[Fri Aug  3 14:05:36.135 2012] 0.014 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 测试
+[Fri Aug  3 14:56:30.842 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 测试
+[Fri Aug  3 16:33:40.338 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 测试
+[Fri Aug  3 16:34:58.873 2012] 0.001 sec [all/0/rel 1 (0,20)] [sphinxtest_story] bone
+[Fri Aug  3 16:51:36.729 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 测试
+[Fri Aug  3 16:52:00.081 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 测试
+[Fri Aug  3 16:52:02.681 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] bone
+[Fri Aug  3 16:52:05.701 2012] 0.000 sec [all/0/rel 0 (0,20)] [sphinxtest_story] ceshi
+[Fri Aug  3 16:52:08.858 2012] 0.000 sec [all/0/rel 0 (0,20)] [sphinxtest_story] 测
+[Fri Aug  3 16:52:11.145 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 测试
+[Fri Aug  3 16:52:18.007 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 我
+[Fri Aug  3 16:53:39.949 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] bone
+[Sat Aug  4 11:59:31.138 2012] 0.055 sec [all/0/rel 1 (0,20)] [sphinxtest_story] bone
+[Sun Aug  5 13:09:58.308 2012] 0.066 sec [all/0/rel 2 (0,20)] [sphinxtest_story] test
+[Sun Aug  5 13:12:30.688 2012] 0.000 sec [all/0/rel 2 (0,20)] [sphinxtest_story] test
+[Sun Aug  5 13:17:43.120 2012] 0.009 sec [all/0/rel 1 (0,20)] [sphinxtest_story] my test
+[Sun Aug  5 13:18:06.338 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] check it out
+[Sun Aug  5 13:18:18.910 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] this check it out
+[Sun Aug  5 13:18:42.992 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] this check test
+[Sun Aug  5 13:19:13.035 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] check  out
+[Sun Aug  5 13:19:27.815 2012] 0.051 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 测试
+[Sun Aug  5 13:19:33.471 2012] 0.035 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 高亮
+[Sun Aug  5 13:19:46.793 2012] 0.022 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 高亮 代码
+[Sun Aug  5 13:20:00.723 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 我 高亮
+[Sun Aug  5 13:21:51.728 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] 我 高亮
+[Sun Aug  5 13:21:57.324 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] bone
+[Sun Aug  5 13:22:37.669 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] hi kaka
+[Sun Aug  5 13:22:47.515 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] hi
+[Sun Aug  5 13:22:55.287 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] kaka
+[Sun Aug  5 13:23:02.579 2012] 0.000 sec [all/0/rel 1 (0,20)] [sphinxtest_story] good
+[Sun Aug  5 13:28:00.461 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] good hi
+[Sun Aug  5 13:28:15.657 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] bone test
+[Sun Aug  5 13:28:35.821 2012] 0.000 sec [ext/0/rel 0 (0,20)] [sphinxtest_story] hello | world
+[Sun Aug  5 13:28:41.622 2012] 0.000 sec [ext/0/rel 0 (0,20)] [sphinxtest_story] hello 
+[Sun Aug  5 13:28:51.876 2012] 0.000 sec [ext/0/rel 2 (0,20)] [sphinxtest_story] 测试 | bone
+[Sun Aug  5 13:29:29.210 2012] 0.023 sec [ext/0/rel 0 (0,20)] [sphinxtest_story] 测试 -死
+[Sun Aug  5 13:29:40.196 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 测试 死
+[Sun Aug  5 13:30:20.015 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] @title 高亮 @body 死
+[Sun Aug  5 13:31:22.723 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] @title 高亮 @body 死
+[Sun Aug  5 13:31:33.170 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 高亮
+[Sun Aug  5 13:36:01.424 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 高亮
+[Sun Aug  5 13:36:15.223 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 继续 高亮
+[Sun Aug  5 13:43:05.791 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 继续 高亮
+[Sun Aug  5 13:43:18.277 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 高亮
+[Sun Aug  5 13:43:34.326 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 死
+[Sun Aug  5 13:43:43.662 2012] 0.032 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 晕死
+[Sun Aug  5 13:43:52.755 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 晕 死
+[Sun Aug  5 13:44:08.299 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 测试 晕死
+[Sun Aug  5 13:44:38.232 2012] 0.000 sec [ext/0/rel 1 (0,20)] [sphinxtest_story] 高亮 晕死
+[Sun Aug  5 14:40:17.327 2012] 0.000 sec [ext/0/rel 0 (0,20)] [blog_indexer] bone
+[Sun Aug  5 14:40:23.311 2012] 0.000 sec [ext/0/rel 0 (0,20)] [blog_indexer] 测试
+[Sun Aug  5 14:40:55.371 2012] 0.000 sec [ext/0/rel 1 (0,20)] [blog_indexer] test
+[Sun Aug  5 14:41:43.012 2012] 0.000 sec [ext/0/rel 1 (0,20)] [blog_indexer] if
+[Sun Aug  5 14:43:33.442 2012] 0.000 sec [ext/0/rel 0 (0,20)] [blog_indexer] hello | world
+[Sun Aug  5 14:43:39.599 2012] 0.001 sec [ext/0/rel 0 (0,20)] [blog_indexer] hello
+[Sun Aug  5 14:45:47.187 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Sun Aug  5 14:47:35.940 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Sun Aug  5 14:47:59.481 2012] 0.000 sec [ext/0/rel 0 (0,20)] [blog_indexer] hi
+[Sun Aug  5 14:48:03.166 2012] 0.000 sec [ext/0/rel 1 (0,20)] [blog_indexer] hello
+[Sun Aug  5 14:50:46.414 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Sun Aug  5 14:51:23.598 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Sun Aug  5 14:56:11.547 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Sun Aug  5 14:56:15.333 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Sun Aug  5 15:02:28.486 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Sun Aug  5 15:05:13.171 2012] 0.000 sec [ext/0/rel 1 (0,20)] [blog_indexer] test
+[Sun Aug  5 15:05:59.518 2012] 0.000 sec [ext/0/rel 2 (0,20)] [blog_indexer] test
+[Sun Aug  5 18:21:44.285 2012] 0.068 sec [ext/0/rel 2 (0,20)] [blog_indexer] test
+[Tue Aug  7 22:03:09.475 2012] 0.029 sec [ext/0/rel 0 (0,20)] [blog_indexer] 测试
+[Tue Aug  7 22:03:13.615 2012] 0.021 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Tue Aug  7 22:08:46.949 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Tue Aug  7 22:08:50.289 2012] 0.000 sec [scan/0/rel 3 (0,20)] [blog_indexer]
+[Tue Aug  7 22:08:54.364 2012] 0.000 sec [ext/0/rel 3 (0,20)] [blog_indexer] test
+[Tue Aug  7 22:09:39.130 2012] 0.000 sec [ext/0/rel 4 (0,20)] [blog_indexer] test
+[Tue Aug  7 22:11:23.379 2012] 0.000 sec [ext/0/rel 4 (0,20)] [blog_indexer] test
+[Tue Aug  7 22:13:41.446 2012] 0.000 sec [ext/0/rel 5 (0,20)] [blog_indexer] test
+[Tue Sep  4 23:38:59.333 2012] 0.001 sec [ext/0/rel 0 (0,20)] [blog_indexer] fd
+[Tue Sep  4 23:40:08.000 2012] 0.000 sec [ext/0/rel 0 (0,20)] [blog_indexer] fd
+[Tue Sep  4 23:40:14.954 2012] 0.032 sec [ext/0/rel 5 (0,20)] [blog_indexer] test
+[Tue Sep  4 23:42:58.148 2012] 0.000 sec [ext/0/rel 5 (0,20)] [blog_indexer] test
+[Tue Sep  4 23:45:02.298 2012] 0.000 sec [ext/0/rel 5 (0,20)] [blog_indexer] test
+[Tue Sep  4 23:49:42.232 2012] 0.000 sec [ext/0/rel 5 (0,20)] [blog_indexer] test
+[Tue Sep  4 23:51:28.236 2012] 0.000 sec [ext/0/rel 5 (0,20)] [blog_indexer] test
+[Tue Sep  4 23:52:59.636 2012] 0.000 sec [ext/0/rel 5 (0,20)] [blog_indexer] test
+[Tue Sep  4 23:55:48.554 2012] 0.000 sec [ext/0/rel 0 (0,20)] [blog_indexer] fsdf
+[Tue Sep  4 23:55:59.227 2012] 0.000 sec [ext/0/rel 5 (0,20)] [blog_indexer] test
+[Tue Sep  4 23:56:07.377 2012] 0.048 sec [ext/0/rel 0 (0,20)] [blog_indexer] 请输入关键词
+[Wed Sep  5 00:03:08.831 2012] 0.000 sec [ext/0/rel 0 (0,20)] [blog_indexer] ??
+[Wed Sep  5 00:05:48.786 2012] 0.000 sec [ext/0/rel 0 (0,20)] [blog_indexer] ??

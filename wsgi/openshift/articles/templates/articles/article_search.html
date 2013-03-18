@@ -1,0 +1,27 @@
+{% extends 'articles/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans 'Articles' %}{% endblock %}
+
+{% block articles-content %}
+<h2 class="title">{% trans 'Articles' %}{% ifnotequal paginator.num_pages 1 %}, {% trans 'page' %} {{ page_obj.number }}{% endifnotequal %}</h2>
+
+<!--search results-->
+<span>    
+    {% ifnotequal articles None %}
+	    <p>你搜索了&ldquo;<strong>{{ query }}</strong>&rdquo;，一共找到了<strong>{{ search_meta.total_found }}</strong>个结果。</p>
+	    <!--
+	    <p>search_meta object数值: {{ search_meta }}</p>
+        <hr/>
+        {% for s in articles %}
+	        <h3>文章标题及作者： {{ s.title }}({{ s.author }})</h3>	        
+	        <p>该文章的sphinx信息(id，权重和attr): {{ s.sphinx }}</p>
+        {% endfor %} 
+        -->           
+    {% endifnotequal %}
+ </span>
+ 
+{% for article in page_obj.object_list %}
+{% include 'articles/_articles.html' %}
+{% endfor %}
+{% endblock %}

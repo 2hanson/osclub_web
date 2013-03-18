@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^application/static/(.*)$ /static/media/$1 [L]
+
+RewriteEngine On
+RewriteRule ^application/media/attach/(.+)$ /static/attach/$1 [L]
+
+RewriteEngine On
+RewriteRule ^application/media/ckupload/(.+)$ /static/upload/ckupload/$1 [L]

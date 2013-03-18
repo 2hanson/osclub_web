@@ -1,0 +1,28 @@
+{% if disqus_forum %}
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+var disqus_identifier = {{ article.id }}; //标识每一篇文章都有不同的评论之用 如果不用此变量 则标识是url 那样是不可靠的
+</script>
+<!--script type="application/javascript" src="http://disqus.com/forums/{{ disqus_forum }}/embed.js"></script>
+<noscript><a href="http://disqus.com/forums/{{ disqus_forum }}/?url=ref">View the discussion thread.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a-->
+
+<!--我用上面的效果和下面的效果是一样的 下面是官方最新推荐的-->
+<!--For displaying Disqus on your site, typically on individual article or post pages. 
+Place the following code where you'd like Disqus to load: -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'osclub'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+{% endif %}
+

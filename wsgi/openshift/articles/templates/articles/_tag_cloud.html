@@ -1,0 +1,7 @@
+<div id="articles-tag-cloud">
+  {% for tag in tags %}
+    {% if tag.weight %}
+        <a href="{{ tag.get_absolute_url }}" class="tag-cloud-{{ tag.weight }}">{{ tag.name }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
